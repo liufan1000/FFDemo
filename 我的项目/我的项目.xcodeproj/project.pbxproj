@@ -13,6 +13,7 @@
 		A1B8A5F11D366C8000A92286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B8A5EF1D366C8000A92286 /* Main.storyboard */; };
 		A1B8A5F31D366C8000A92286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B8A5F21D366C8000A92286 /* Assets.xcassets */; };
 		A1B8A5F61D366C8000A92286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B8A5F41D366C8000A92286 /* LaunchScreen.storyboard */; };
+		A1B8A6001D366CAB00A92286 /* FFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B8A5FF1D366CAB00A92286 /* FFPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A1B8A5F21D366C8000A92286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B8A5F51D366C8000A92286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B8A5F71D366C8000A92286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B8A5FE1D366CAB00A92286 /* FFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPerson.h; sourceTree = "<group>"; };
+		A1B8A5FF1D366CAB00A92286 /* FFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		A1B8A5FD1D366C8E00A92286 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				A1B8A5FE1D366CAB00A92286 /* FFPerson.h */,
+				A1B8A5FF1D366CAB00A92286 /* FFPerson.m */,
 			);
 			path = "我的框架";
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B8A6001D366CAB00A92286 /* FFPerson.m in Sources */,
 				A1B8A5EE1D366C8000A92286 /* ViewController.m in Sources */,
 				A1B8A5EB1D366C8000A92286 /* AppDelegate.m in Sources */,
 				A1B8A5E81D366C8000A92286 /* main.m in Sources */,
